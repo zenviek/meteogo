@@ -4,7 +4,7 @@ A simple library for working with the Open Meteo API (not all functionality is i
 
 # Import
 ```sh
-go get -u github.com/JustBugLord/meteogo
+go get -u github.com/zenviek/meteogo
 ```
 
 # Usage example
@@ -14,10 +14,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/JustBugLord/meteogo"
-	"github.com/JustBugLord/meteogo/current"
-	"github.com/JustBugLord/meteogo/hourly"
-	"github.com/JustBugLord/meteogo/wmc"
+	"github.com/zenviek/meteogo"
+	"github.com/zenviek/meteogo/current"
+	"github.com/zenviek/meteogo/hourly"
+	"github.com/zenviek/meteogo/wmc"
 )
 
 func main() {

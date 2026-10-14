@@ -3,9 +3,9 @@ package meteogo
 import (
 	"fmt"
 
-	"github.com/JustBugLord/meteogo/current"
-	"github.com/JustBugLord/meteogo/daily"
-	"github.com/JustBugLord/meteogo/hourly"
+	"github.com/zenviek/meteogo/current"
+	"github.com/zenviek/meteogo/daily"
+	"github.com/zenviek/meteogo/hourly"
 )
 
 type MeteoRequest struct {

@@ -3,7 +3,7 @@ package meteogo
 import (
 	"errors"
 
-	"github.com/JustBugLord/reqtango/v2"
+	"github.com/zenviek/reqtango/v2"
 )
 
 var url = "https://api.open-meteo.com/v1/forecast?"
